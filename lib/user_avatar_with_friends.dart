@@ -2,6 +2,7 @@ library user_avatar_with_friends;
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class UserAvatarWithFriendsList extends StatefulWidget {
   List<String>? imagePath = List.empty(growable: true);
@@ -224,10 +225,12 @@ class _UserAvatarWithFriendsList extends State<UserAvatarWithFriendsList> {
                     const SizedBox(
                       width: 5,
                     ),
-                    Text(
-                      "+$restValue",
-                      style: widget.textStyle,
-                    )
+                    restValue == 0
+                        ? Container()
+                        : Text(
+                            "+$restValue",
+                            style: widget.textStyle,
+                          )
                   ],
                 ))
           ],

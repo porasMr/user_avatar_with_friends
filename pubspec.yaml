@@ -1,6 +1,6 @@
 name: user_avatar_with_friends
 description: User profile picture with friends profile picture
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/porasMr/user_avatar_with_friends.git
 
 environment:
