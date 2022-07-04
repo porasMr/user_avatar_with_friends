@@ -26,7 +26,7 @@ start using the package.
 
 ## Usage
 
-TODO: User Avatar with friends
+TODO: User Avatar with friends like this
 
 
 
